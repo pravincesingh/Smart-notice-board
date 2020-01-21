@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Smart notice board</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  
+  <style>
+   #label{
+      background-color:black;
+	  color:white;
+	  font-size:30px;
+	  text-align:center;
+	  height:50px;
+	  width:100%;
+	  margin-bottom:30px;
+	  margin-top:30px;
+   }
+  </style>
+  
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand">Smart notice board</a>
+    </div>
+  </div>
+</nav>
+  <form method="post" action="/">
+ <div class="container-fluid row" id="light1"> 
+ <label id="label">
+    Board 1
+ </label>
+ </div>
+<div class="container row">
+  <div class="col-md-2"> 
+    <input type="text" name="Board1">
+  
+  </div>
+  
+  <div class="col-md-2"> 
+  
+  <input type="submit" class="btn btn-primary btn-lg btn-block" value="SET" name="SB1"/>
+   </div>  
+</div>
+<br>
+<div class="container-fluid row" id="light1"> 
+ <label id="label">
+    Board 2
+ </label>
+ </div>
+<div class="container row">
+  <div class="col-md-2"> 
+    <input type="text" name="Board2">
+  </div>
+  <div class="col-md-2"> 
+  
+  <input type="submit" class="btn btn-primary btn-lg btn-block" value="SET" name="SB2"/>
+
+   </div>  
+</div>
+</form>
+</body>
+</html>
